@@ -10,6 +10,7 @@ import uvicorn
 import numpy as np
 import base64
 import json
+import os
 from io import BytesIO
 from PIL import Image
 from tensorflow.keras.models import load_model
